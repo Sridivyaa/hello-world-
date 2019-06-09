@@ -1,0 +1,3 @@
+from nltk import word_tokenize, pos_tag, ne_chunk
+input_str= "The Guitar Player is an oil painting by Pablo Picasso created in late 1903 and early 1904."
+print ne_chunk(pos_tag(word_tokenize(input_str)))
